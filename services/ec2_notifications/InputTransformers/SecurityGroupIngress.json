@@ -1,0 +1,6 @@
+{
+    "name": "$.detail.requestParameters.groupId",
+    "source": "$.detail.eventName",
+    "time": "$.time",
+    "value": "$.detail"
+}

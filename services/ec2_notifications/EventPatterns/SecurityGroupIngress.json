@@ -1,0 +1,22 @@
+{
+    "source": [
+        "aws.ec2"
+    ],
+    "detail-type": [
+        "AWS API Call via CloudTrail"
+    ],
+    "detail": {
+        "eventSource": [
+            "ec2.amazonaws.com"
+        ],
+        "eventName": [
+            "AuthorizeSecurityGroupIngress",
+            "RevokeSecurityGroupIngress"
+        ],
+        "requestParameters": {
+            "groupId": [
+                "sg-02d8d03f67f7ead85"
+            ]
+        }
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "name": "$.detail.requestParameters.instanceId",
+    "source": "$.detail.eventName",
+    "time": "$.time",
+    "value": "$.detail"
+}

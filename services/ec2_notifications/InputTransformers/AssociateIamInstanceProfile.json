@@ -1,0 +1,6 @@
+{
+    "name": "$.detail.responseElements.AssociateIamInstanceProfileResponse.iamInstanceProfileAssociation.instanceId",
+    "source": "$.detail.eventName",
+    "time": "$.time",
+    "value": "$.detail"
+}

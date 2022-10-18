@@ -1,0 +1,25 @@
+{
+    "source": [
+        "aws.ec2"
+    ],
+    "detail-type": [
+        "AWS API Call via CloudTrail"
+    ],
+    "detail": {
+        "eventSource": [
+            "ec2.amazonaws.com"
+        ],
+        "eventName": [
+            "AssociateIamInstanceProfile"
+        ],
+        "responseElements": {
+            "AssociateIamInstanceProfileResponse": {
+                "iamInstanceProfileAssociation": {
+                    "instanceId": [
+                        "i-095137f8fd3681a04"
+                    ]
+                }
+            }
+        }
+    }
+}

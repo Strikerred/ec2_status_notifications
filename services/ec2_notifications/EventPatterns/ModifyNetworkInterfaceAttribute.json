@@ -1,0 +1,22 @@
+{
+    "source": [
+        "aws.ec2"
+    ],
+    "detail-type": [
+        "AWS API Call via CloudTrail"
+    ],
+    "detail": {
+        "eventSource": [
+            "ec2.amazonaws.com"
+        ],
+        "eventName": [
+            "ModifyNetworkInterfaceAttribute"
+        ],
+        "requestParameters": {
+            "networkInterfaceId": [
+                "eni-08f42d07abc36c4a0",
+                "eni-091f806112ade720b"
+            ]
+        }
+    }
+}
