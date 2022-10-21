@@ -13,10 +13,10 @@ terraform {
 }
 
 inputs = {
-  environment    = "sandbox"
-  aws_region     = "us-west-2"
-  service_name   = "ec2_notifications"
-  department     = "tech delivery"
-  event_names    = ["AssociateAddress-AttachNetworkInterface", "AssociateIamInstanceProfile", "DetachNetworkInterface", "DisassociateAddress", "DisassociateIamInstanceProfile", "InstanceStatus", "ModifyNetworkInterfaceAttribute", "SecurityGroupIngress"]
+  environment  = "sandbox"
+  aws_region   = "us-west-2"
+  service_name = "ec2_notifications"
+  department   = "tech delivery"
+  event_names  = ["AssociateAddress-AttachNetworkInterface", "AssociateIamInstanceProfile", "DetachNetworkInterface", "DisassociateAddress", "DisassociateIamInstanceProfile", "InstanceStatus", "ModifyNetworkInterfaceAttribute", "SecurityGroupIngress"]
 }
     
