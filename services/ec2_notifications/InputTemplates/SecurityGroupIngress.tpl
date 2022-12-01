@@ -10,12 +10,12 @@
             "ec2.amazonaws.com"
         ],
         "eventName": [
-            "ModifyNetworkInterfaceAttribute"
+            "AuthorizeSecurityGroupIngress",
+            "RevokeSecurityGroupIngress"
         ],
         "requestParameters": {
-            "networkInterfaceId": [
-                "eni-08f42d07abc36c4a0",
-                "eni-091f806112ade720b"
+            "groupId": [
+                ${security_group_id}
             ]
         }
     }

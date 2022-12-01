@@ -10,11 +10,11 @@
             "ec2.amazonaws.com"
         ],
         "eventName": [
-            "DisassociateAddress"
+            "ModifyNetworkInterfaceAttribute"
         ],
         "requestParameters": {
-            "associationId": [
-                "eipassoc-09eef5bcbced8ea91"
+            "networkInterfaceId": [
+                ${network_interface_id}
             ]
         }
     }

@@ -10,12 +10,11 @@
             "ec2.amazonaws.com"
         ],
         "eventName": [
-            "AuthorizeSecurityGroupIngress",
-            "RevokeSecurityGroupIngress"
+            "DisassociateAddress"
         ],
         "requestParameters": {
-            "groupId": [
-                "sg-02d8d03f67f7ead85"
+            "associationId": [
+                ${eip_association_id}
             ]
         }
     }

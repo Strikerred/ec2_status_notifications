@@ -10,16 +10,13 @@
             "ec2.amazonaws.com"
         ],
         "eventName": [
-            "RunInstances",
-            "StartInstances",
-            "StopInstances",
-            "TerminateInstances"
+            "DisassociateIamInstanceProfile"
         ],
-        "requestParameters": {
-            "instancesSet": {
-                "items": {
+        "responseElements": {
+            "DisassociateIamInstanceProfileResponse": {
+                "iamInstanceProfileAssociation": {
                     "instanceId": [
-                        "i-095137f8fd3681a04"
+                        ${instance_id}
                     ]
                 }
             }

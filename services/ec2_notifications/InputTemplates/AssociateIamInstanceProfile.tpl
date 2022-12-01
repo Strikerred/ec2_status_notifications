@@ -10,13 +10,13 @@
             "ec2.amazonaws.com"
         ],
         "eventName": [
-            "DisassociateIamInstanceProfile"
+            "AssociateIamInstanceProfile"
         ],
         "responseElements": {
-            "DisassociateIamInstanceProfileResponse": {
+            "AssociateIamInstanceProfileResponse": {
                 "iamInstanceProfileAssociation": {
                     "instanceId": [
-                        "i-095137f8fd3681a04"
+                        ${instance_id}
                     ]
                 }
             }

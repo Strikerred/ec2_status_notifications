@@ -14,7 +14,7 @@
         ],
         "requestParameters": {
             "attachmentId": [
-                "eni-attach-02ba76cb2b4767ed9"
+                ${eni_attachment_id}
             ]
         }
     }
